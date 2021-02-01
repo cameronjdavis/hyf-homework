@@ -15,7 +15,7 @@ function getNote(id) {
 }
 
 const firstNote = getNote(2);
-console.log(firstNote); // {content: 'Pick up groceries', id: 1}
+console.log(firstNote);
 
 function logOutNotesFormatted() {
     for (note of notes) {
