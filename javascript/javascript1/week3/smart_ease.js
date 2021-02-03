@@ -18,9 +18,10 @@ const firstNote = getNote(2);
 console.log(firstNote);
 
 function logOutNotesFormatted() {
-    for (note of notes) {
-        console.log(`The note with id: ${note.id}, has the following note text: ${note.content}`);
-    }
+    notes.forEach((note) => console.log(`The note with id: ${note.id}, has the following note text: ${note.content}`));
+    // for (note of notes) {
+    //     console.log(`The note with id: ${note.id}, has the following note text: ${note.content}`);
+    // }
 }
 
 logOutNotesFormatted();
