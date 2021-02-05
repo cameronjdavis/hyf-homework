@@ -1,8 +1,8 @@
 function countDanishLetters(sentence) {
     let count = 0;
     const danes = ['æ', 'ø', 'å'];
-    for(character of sentence) {
-        if(danes.includes(character)) {
+    for (character of sentence) {
+        if (danes.includes(character)) {
             count++;
         }
     }
