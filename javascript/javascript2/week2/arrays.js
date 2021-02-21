@@ -8,6 +8,20 @@ const mentors = [
     { "name": "Cameron Davis", "subjects": ['Database', 'CSS', 'Fun'], yearOfExperience: 9},
 ];
 
+// convert reduce to arrow function
+// reduce
+// sort
+// filter
+// map
+// for
+// for of
+// forEach
+
+
+
+
+
+
 // const filteredMentors = mentors.reduce((filteredMentors, mentor) => mentor.yearOfExperience >= 9 ? filteredMentors.concat([mentor]) : filteredMentors, [])
 // console.log(filteredMentors)
 
@@ -62,6 +76,11 @@ const mentors = [
 //     console.log(mentors[i].name)
 // }
 
+// convert reduce to arrow function
+// reduce
+// sort
+// filter
+// map
 // for
 // for of
 // forEach
