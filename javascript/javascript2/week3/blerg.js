@@ -1,17 +1,23 @@
-function add(first, second) {
-    return first + second
-}
+console.log('hi')
 
-const successMessage = (subject) => {
-    console.log('Completed homework ' + subject)
-}
+setTimeout(() => console.log('food'), 3000)
 
-function completedHomework(subject, callback) {
-    console.log('You have finish your homework, subject' + subject)
-    callback(subject)
-}
+console.log('bye')
 
-//completedHomework('math', successMessage)
+// function recursive(){
+//     recursive()
+// }
+// recursive()
 
-const button = document.getElementById('clicker')
-button.addEventListener('click', completedHomework('math', successMessage))
+// function firstFunction() {
+//     secondFunction();
+// }
+// function secondFunction() {
+//     thridFunction();
+// }
+// function thridFunction() {
+//     //console.log(new Error().stack);
+//     throw new Error()
+// }
+// firstFunction();
+
